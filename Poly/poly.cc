@@ -1,11 +1,13 @@
 #include "poly.h"
 int main() {
-  base *bptr;
+  base *baseptr;
   derived d;
-  bptr = &d;
 
-  bptr -> print();
-  bptr -> show();
+
+  baseptr = &d;
+
+  baseptr ->print();
+  baseptr ->show();
   return 0;
 
 }
